@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fundamentos - Align Itens</title>
+        <style>
+            .container{
+                display: flex;
+                border: 1px solid black;
+                max-width: 350px;
+               
+                            
+            }
+
+            .flex{
+                flex: 1;
+            }
+            .item{
+                background-color: blueviolet;
+                margin: 5px;
+                text-align: center;
+                color: white;
+                flex: 1;
+            }
+            
+            .center{
+                align-items: center;
+            }
+
+            .stretch{
+                align-items: stretch;
+            }
+
+            .start{
+                align-items: flex-start;
+            }
+
+            .end{
+                align-items: flex-end;
+            }
+
+            .baseline{
+                align-items: baseline;
+            }
+
+            .column{
+                flex-direction: column;
+            }
+
+            .central{
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .central .item{
+                flex: 0;
+                padding: 20px;
+            }
+
+
+            
+        </style>
+                       
+    </head>
+    <body>
+
+        <h1>ROW</h1>
+        <p>Center</p>
+        <section class="container center">
+            <div class="item">1</div>
+            <div class="item">item 2</div>
+            <div class="item">outro item maior</div>
+
+        </section>
+
+        <p>Strectch</p>
+        <section class="container stretch">
+            <div class="item">1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+        </section>
+
+        <p>Flex-Start</p>
+        <section class="container start">
+            <div class="item">1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+        <p>Flex-End</p>
+        <section class="container end">
+            <div class="item">1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+
+        <p>Baseline</p>
+        <section class="container baseline">
+            <div class="item"><br>1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+    
+
+        <H1>COLUMN</H1>
+
+        <p>Flex-Start</p>
+        <section class="container start column">
+            <div class="item">1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+        <p>Flex-End</p>
+        <section class="container end column">
+            <div class="item">1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+
+        <p>Baseline</p>
+        <section class="container baseline column">
+            <div class="item"><br>1</div>
+            <div class="item">item 2 um pouco mais</div>
+            <div class="item">outro itens maior e maior e maior 
+
+            </div>
+
+
+        </section>
+
+        <p>Center</p>
+        <section class="container center column">
+            <div class="item">1</div>
+            <div class="item">item 2</div>
+            <div class="item">outro item maior</div>
+
+        </section>
+
+        <p>Alinhamento Cetral a Tela</p>
+
+        <section class="container central center">
+            <div class="item">item 100</div>
+        </section>
+
+
+    </body>
+</html>

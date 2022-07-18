@@ -1,0 +1,63 @@
+FLEX-WRAP define se os itens devem ou não quebrar a linha, vai fazer os flex itens sejam copactados
+
+WRAP-REVERSE mesma logica do wrap no sentido contrario
+
+
+
+FLEX-FLOW é um atalho para as propriedades do flex-direction e flex-wrap
+
+JUSTIFY CONTENT alinhar os itens dentro do container deacordo com a direção
+
+Variações: flex-start: inicio
+	   flex-end: final
+	   center: ao centro
+	   space-between: cria um espaço entre os elementos
+	   space-around: os espaçamentos do meio são 2x maiores
+
+
+ALIGN-ITEMS Alinhamentos das linhas horizontal e vertical
+
+ESTRETCH: padrão e os flex itens
+FLEX-START:
+FLEX-END:
+BASELINE: alinhamento de acordo com a linha base da tipografia dos itens
+
+
+
+ALIGN-CONTENT: quebra horizontal
+precisa q o container utilize quebra de linhas
+a altura do container tem q ser maior
+CENTER: alinhamento centro
+STRETCH: CRESCIMENTO IGUAL
+FLEX-START: alinhamento dos itens no inicio
+FLEX-END: alinhamento dos itens no final
+SPACE-BETWEEN: cria um espaçamento igual entre os itens
+SPACE-AROUND: cria um espaçamento do meio 2x maior
+
+
+
+
+FLEX-GROW definir proporcionalidade de crescimento dos itens, respeitando o tamanha interno
+não ira funcionar com justify-contest oa flex-container
+
+
+FLEX-BASIS estabelece o tamanho inicial do item antes da
+distribuição de espaço restante dentro dele, usando como base o conteudo interno
+Valores Possiveis: auto será proporcional ao conteudo
+		   px, % em, são valores exatos previamente definido
+	 	   0 zero: tera relação direta com o flex-grow
+
+
+FLEX-SHRINK estabelece a capacidade de redução ou compressão de um item
+
+
+
+FLEX atalho ou abreviação de escrita para as propriedades GROW, SHRINK, BASIS
+
+
+
+
+ORDER ordenação dos nossos itens
+
+
+

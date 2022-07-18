@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fundamentos - Align Self</title>
+        <style>
+            .flex-container{
+                display: flex;
+                border: 1px solid black;
+                max-width: 350px;
+                margin: 0px;
+                margin-bottom: 10px;
+                
+               
+              
+            }
+
+            .align-container{
+                align-items: center;
+            }
+            .item{
+                background-color: rgb(240, 149, 13);
+                margin: 5px;
+                text-align: center;
+                color: white;
+                font-size: 24px;
+            }
+            
+
+            .center{
+                align-self: center;
+            }
+
+
+           .start{
+            align-self: flex-start;
+           }
+
+           .end{
+            align-self: flex-end;
+           }
+
+           .baseline{
+            align-self: baseline;
+           
+           }
+
+           .stretch{
+            align-self: stretch;
+
+           }
+
+           .auto{
+            align-self: auto;
+           }
+
+           .direction{
+            flex-direction: column;
+           }
+
+
+
+        </style>
+                       
+    </head>
+    <body>
+
+        
+        <p>ALIGN-SELF CENTER</p>
+        <section class="flex-container align-container">
+            <div class="item auto">1</div>
+            <div class="item auto">item 2</div>
+            <div class="item auto">outro gggffg gfg fgfg item</div>
+            <div class="item auto">outro item</div>
+            <div class="item auto">outro item</div>
+
+        </section>
+
+
+        <p>MISTURADO</p>
+        <section class="flex-container align-container">
+            <div class="item stretch">1</div>
+            <div class="item center">BBB</div>
+            <div class="item center">outro gffghghghghghg gghgg gfgfgfgfg g gfg fgfg item</div>
+            <div class="item end">outro item</div>
+
+        </section>
+
+        <p>ALIGN-SELF START</p>
+        <section class="flex-container align-container">
+            <div class="item start">1111111</div>
+            <div class="item start">item gfgfg fgfgfgfgfgf fgfgfgf start 2</div>
+            <div class="item start">outro item</div>
+            
+        </section>
+
+        <p>ALIGN-SELF END</p>
+        <section class="flex-container">
+            <div class="item end">1</div>
+            <div class="item end">itedfgm ebd 2</div>
+            <div class="item end">outro fgdfgdfg dfgdfgdfgdfg dfgdgitem</div>
+            
+        </section>
+
+        <p>ALIGN-SELF BASELINE</p>
+        <section class="flex-container">
+            <div class="item baseline">1</div>
+            <div class="item baseline">item 22222 22222 2222 22 2</div>
+            <div class="item baseline">outro item</div>
+            
+        </section>
+
+
+        <p>COLUMN</p>
+        <section class="flex-container direction">
+            <div class="item center">1</div>
+            <div class="item start">item 2</div>
+            <div class="item end">ougjgjghj ghjghj tro item</div>
+            <div class="item auto">outro item</div>
+            
+        </section>
+
+       
+        
+
+       
+    </body>
+</html>

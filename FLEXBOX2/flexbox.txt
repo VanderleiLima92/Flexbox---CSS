@@ -1,0 +1,30 @@
+FLEX-WRAP define se os itens devem ou não quebrar a linha, vai fazer os flex itens sejam copactados
+
+WRAP-REVERSE mesma logica do wrap no sentido contrario
+
+
+
+FLEX-FLOW é um atalho para as propriedades do flex-direction e flex-wrap
+
+JUSTIFY CONTENT alinhar os itens dentro do container deacordo com a direção
+
+Variações: flex-start: inicio
+	   flex-end: final
+	   center: ao centro
+	   space-between: cria um espaço entre os elementos
+	   space-around: os espaçamentos do meio são 2x maiores
+
+
+
+ALIGN-SELF: alinhamento de modo individual sobre um determinado item
+Valores: Auto
+	Flex-Start: inicio
+	flex-end: final
+	center: relativo ao centro
+	stretch: ocupa todos os espaços relativos
+	baseline: utiliza a linha base da tipografia
+
+
+
+
+FLEX-PROJETO: 
